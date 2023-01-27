@@ -1,0 +1,14 @@
+body{
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+h1{
+    color: brown;
+}
+h2{
+    color:rgb(177, 89, 6);
+}
+p{
+    text-align: justify;
+}
