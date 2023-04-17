@@ -1,7 +1,7 @@
 body{
 	font-family: 'Montserrat', sans-serif;
+	background-image: linear-gradient(to bottom, #FEFEFE, #888888 );
 }
-
 
 header {
 	background: #BBBBBB;
@@ -100,8 +100,9 @@ footer {
 }
 
 main {
-	width: 100%;
+	width: 940px;
 	margin: 0 auto;
+	
 }
 
 form {
@@ -160,7 +161,7 @@ td, th {
 
 /*CSS da página inicial*/
 .banner{
-	width: 100%;
+	width: 100vw;
 }
 
 .tp{
@@ -168,6 +169,12 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+}
+
+.principal{
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .principal p{
@@ -184,6 +191,7 @@ td, th {
 
 .bene{
 	padding: 3em 0;
+
 }
 
 .cont-bene{
@@ -217,6 +225,8 @@ td, th {
 
 .mapa{
 	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .mapa p{
