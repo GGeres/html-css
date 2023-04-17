@@ -39,9 +39,13 @@ nav a:hover {
 }
 
 .produtos {
-	width: 940px;
+	width: 98vw;
 	margin: 0 auto;
 	padding: 50px 0;
+}
+
+.produtos img{
+	width: 23vw;
 }
 
 .produtos li {
@@ -195,6 +199,14 @@ td, th {
 
 .img-ben{
 	width: 60%;
+}
+
+.itens{
+	line-height: 1.5em;
+}
+
+.itens:first-child{
+	font-weight: bold;
 }
 
 .uten{
