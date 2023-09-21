@@ -4,3 +4,15 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: aliceblue;
+    position: relative;
+}
+
+header{
+    background-color: aqua;
+    height: 35vh;
+    width: 50vw;
+    text-align: center;
+    justify-content: center;
+}
