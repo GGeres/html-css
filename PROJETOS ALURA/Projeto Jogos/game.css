@@ -29,14 +29,25 @@ main{
     width: 70%;
     margin-top: 20px;
     margin-inline-start: 15%;
-    border-radius: 25%;
+    border-radius: 25px;
 
     display: flex;
     justify-content: center;
 }
 
 #select{
+    
+    margin: 20px;
     padding: 20px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.cab_game{
+    align-self: flex-start;
 }
 .game{
+    
 }
