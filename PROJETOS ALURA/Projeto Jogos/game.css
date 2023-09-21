@@ -24,6 +24,18 @@ header{
 }
 
 main{
-    
+    background-color: aquamarine;
+    height: 60vh;
+    width: 70%;
+    margin-top: 20px;
+    margin-inline-start: 15%;
+    border-radius: 25%;
+
+    display: flex;
+    justify-content: center;
 }
+
+ #select{
+
+ }
 
