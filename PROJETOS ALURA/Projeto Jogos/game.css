@@ -10,8 +10,7 @@ body{
 }
 
 header{
-    display: flex;
-    flex-direction: row;
+    
     background-color: aqua;
     height: 25vh;
     width: 50vw;
@@ -19,35 +18,69 @@ header{
     margin-top: 25px;
     text-align: center;
     border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 main{
     background-color: aquamarine;
-    height: 60vh;
+    height: 70vh;
     width: 70%;
     margin-top: 20px;
     margin-inline-start: 15%;
     border-radius: 25px;
+    text-align: center;
+    
 
     display: flex;
-    justify-content: center;
+    justify-content: center top;
+    flex-direction: column;
 }
 
-#select{
-    
-    margin: 20px;
-    padding: 20px;
+main>h1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    background-color: black;
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+}
 
+.select{
+    margin-top: 30px;
+    height: 50%;
+    width: 100%;
+    background-color: cadetblue;
+    
+    
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    justify-content:space-around ;
+    align-items: center;
+
+}
+#Forca{
+    background-color: red;
+    width: 160px;
+    height: 200px;
     
 }
-.cab_game{
-    align-self: flex-start;
+#Adv{
+    background-color: yellow;
+    width: 130px;
+    height: 80px;
 }
-.game{
-    
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
